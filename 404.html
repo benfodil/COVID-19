@@ -1,0 +1,53 @@
+<html>
+<head>
+	<title>404!</title>
+	<meta name="description" content="Error 404!">
+	<meta name="keywords" content="404">
+    <link rel="icon" href="fav.png" sizes="16x16" type="image/png">
+        <style>
+		@import url('https://fonts.googleapis.com/css?family=Montserrat:300,900');body{margin:0;box-sizing:border-box;font-family:'Montserrat', sans-serif;overflow:hidden;}
+		.coming-soon{letter-spacing:2px;color:#fff;font-weight:300;text-align:center;padding-top:20px;font-size:30px;text-shadow:-1px 0px 12px rgba(0, 0, 0, 0.6);}
+		ul, li{list-style:none;}
+		@keyframes isFloating{0%{transform:translatey(0px);}
+		50%{transform:translatey(-10px);}
+		100%{transform:translatey(0px);}
+		}
+		.o-wall{display:flex;flex-direction:column;align-items:center;justify-content:center;width:100vw;height:100vh;background-color:#6246ff;}
+		.o-wall__claim{transform:rotate(-3deg);}
+		.o-wall__letters-list{transform:skew(-10deg);display:flex;justify-content:center;flex-direction:row;text-align:center;cursor:default;}
+		.o-wall__letters-list--letter{animation:isFloating 2.6s ease-in-out infinite;transition:text-shadow 200ms linear, transform 100ms linear;padding:0 0.05rem;font-size:6rem;text-shadow:-12px 9px 12px rgba(0, 0, 0, 0.6);color:#fff;font-weight:900;}
+		.o-wall__letters-list--letter:nth-child(2n){animation-delay:150ms;}
+		.o-wall__letters-list--letter:nth-child(3n){animation-delay:300ms;}
+		.o-wall__letters-list--letter:nth-child(4n){animation-delay:450ms;}
+		.o-wall__letters-list--letter:nth-child(5n){animation-delay:600ms;}
+		.o-wall__letters-list--letter:nth-child(6n){animation-delay:750ms;}
+		.o-wall__letters-list--letter:nth-child(7n){animation-delay:900ms;}
+		.o-wall__letters-list--letter:nth-child(8n){animation-delay:1050ms;}
+		.o-wall__letters-list--letter:nth-child(9n){animation-delay:1200ms;}
+		.o-wall__letters-list--letter:nth-child(10n){animation-delay:1350ms;}
+		.o-wall__letters-list--letter:nth-child(11n){animation-delay:1500ms;}
+		.o-wall__letters-list--letter:hover{transform:scale(0.98);text-shadow:-1px 1px 1px rgba(0, 0, 0, 0.5);}
+		.o-wall__comments{margin-top:30px;opacity:0.6;font-size:1.15rem;text-align:center;}
+		.o-wall__comments p + p{margin-top:1rem;}
+		.o-wall__comments--link{display:inline-block;padding-left:0.35rem;color:black;}
+		.o-wall__comments--link:hover{text-decoration:none;}
+        .o-wall {
+            background-color: #ff4f46;
+        }
+    </style>
+</head>
+<body>
+	<div class="o-wall">
+		<div class="o-wall__claim">
+			<ol class="o-wall__letters-list">
+				<li class="o-wall__letters-list--letter">#</li>
+				<li class="o-wall__letters-list--letter">4</li>
+				<li class="o-wall__letters-list--letter">0</li>
+				<li class="o-wall__letters-list--letter">4</li>
+                <li class="o-wall__letters-list--letter">!</li>
+			</ol>
+		</div>
+		<p class="coming-soon">This Page Not Found!<p>
+	</div>
+</body>
+</html>
