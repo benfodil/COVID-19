@@ -211,6 +211,7 @@ function status($now,$zip){
 		return number_format($tt->recover,0);
 	}
 }
+
 function news($now,$zip){
 	global $connect;
 	$day = "2021-01-30";
